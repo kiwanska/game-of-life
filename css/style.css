@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+}
+
+.flex-container {
+
+}
+
+#board div {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    float: left;
+}
+
+#board div {
+    cursor: pointer;
+}
+
+#board div.live {
+    background-color: #000000;
+}
+
+#board {
+    margin: 50px auto 0;
+}
+
+#game-set {
+    margin: 50px auto;
+    width: 90px;
+}
+
+.hidden {
+    visibility: hidden;
+}
